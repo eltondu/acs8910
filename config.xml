@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.phonegap.beer4dummies"
+    versionCode = "10"
+    version     = "1.0.0" >
+
+  <name>Tartanator</name>
+  <description>
+      Catálogo de Tartans.
+  </description>
+  <author href="https://bee4dummies.esy.es/chapter6" email="elton.du@gmail.com">
+      Elton S. Costa
+  </author>
+
+    <!-- <preference name="phonegap-version" value="3.0.0" />  -->
+
+    <plugin name="cordova-plugin-splashscreen" source="npm" spec="~5.0.2" />
+    <plugin name="cordova-plugin-whitelist" source="npm" />
+
+
+    <!-- Define app icon for each platform. -->
+    <icon src="icon.png" />
+
+    <icon src="resources/android/icon/icon.png" gap:platform="android"
+        gap:density="ldpi" />
+    <icon src="resources/android/icon/icon.png" gap:platform="android"
+        gap:density="mdpi" />
+    <icon src="resources/android/icon/icon.png" gap:platform="android"
+        gap:density="hdpi" />
+    <icon src="resources/android/icon/icon.png" gap:platform="android"
+        gap:density="xhdpi" />
+
+    <!-- Define app splash screen for each platform. -->
+
+<preference name="SplashScreenDelay" value="5000"/>
+
+<gap:splash src="resources/android/splash/splash-land-hdpi.png" gap:platform="android" gap:qualifier="ldpi"/>
+
+
+</widget>
