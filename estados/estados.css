@@ -1,30 +1,128 @@
-[data-role="header"]{ text-align: center; padding: 5px;}
-[data-role="footer"]{ text-align: center; padding: 0;}
-.forrit { padding: .25em; text-align:center;}
-#acre { background-image:url('icons/acre.png'); }
-#alagoas { background-image:url('icons/alagoas.png'); }
-#amapa { background-image:url('icons/amapa.png'); }
-#amazonas { background-image:url('icons/amazonas.png'); }
-#bahia { background-image:url('icons/bahia.png'); }
-#ceara { background-image:url('icons/ceara.png'); }
-#distrito_federal { background-image:url('icons/distrito_federal.png'); }
-#espirito_santo { background-image:url('icons/espirito_santo.png'); }
-#goias { background-image:url('icons/goias.png'); }
-#maranhao { background-image:url('icons/maranhao.png'); }
-#mato_grosso { background-image:url('icons/mato_grosso.png'); }
-#mato_grosso_do_sul { background-image:url('icons/mato_grosso_do_sul.png'); }
-#minas_gerais { background-image:url('icons/minas_gerais.png'); }
-#para { background-image:url('icons/para.png'); }
-#paraiba { background-image:url('icons/paraiba.png'); }
-#parana { background-image:url('icons/parana.png'); }
-#pernambuco { background-image:url('icons/pernambuco.png'); }
-#piaui { background-image:url('icons/piaui.png'); }
-#rio_de_janeiro { background-image:url('icons/rio_de_janeiro.png'); }
-#rio_grande_do_norte { background-image:url('icons/rio_grande_do_norte.png'); }
-#rio_grande_do_sul { background-image:url('icons/rio_grande_do_sul.png'); }
-#rondonia { background-image:url('icons/rondonia.png'); }
-#roraima { background-image:url('icons/roraima.png'); }
-#santa_catarina { background-image:url('icons/santa_catarina.png'); }
-#sao_paulo { background-image:url('icons/sao_paulo.png'); }
-#sergipe { background-image:url('icons/sergipe.png'); }
-#tocantins { background-image:url('icons/tocantins.png'); }
+[data-role="header"] {
+    text-align: center;
+    padding: 5px;
+}
+
+[data-role="footer"] {
+    text-align: center;
+    padding: 0;
+}
+
+.forrit {
+    padding: .25em;
+    text-align: center;
+}
+
+#acre {
+    background-image: url('icons/acre_icon.png');
+}
+
+#alagoas {
+    background-image: url('icons/alagoas_icon.png');
+}
+
+#amapa {
+    background-image: url('icons/amapa_icon.png');
+}
+
+#amazonas {
+    background-image: url('icons/amazonas_icon.png');
+}
+
+#bahia {
+    background-image: url('icons/bahia_icon.png');
+}
+
+#ceara {
+    background-image: url('icons/ceara_icon.png');
+}
+
+#distrito_federal {
+    background-image: url('icons/distrito_federal_icon.png');
+}
+
+#espirito_santo {
+    background-image: url('icons/espirito_santo_icon.png');
+}
+
+#goias {
+    background-image: url('icons/goias_icon.png');
+}
+
+#maranhao {
+    background-image: url('icons/maranhao_icon.png');
+}
+
+#mato_grosso {
+    background-image: url('icons/mato_grosso_icon.png');
+}
+
+#mato_grosso_do_sul {
+    background-image: url('icons/mato_grosso_do_sul_icon.png');
+}
+
+#minas_gerais {
+    background-image: url('icons/minas_gerais_icon.png');
+}
+
+#para {
+    background-image: url('icons/para_icon.png');
+}
+
+#paraiba {
+    background-image: url('icons/paraiba_icon.png');
+}
+
+#parana {
+    background-image: url('icons/parana_icon.png');
+}
+
+#pernambuco {
+    background-image: url('icons/pernambuco_icon.png');
+}
+
+#piaui {
+    background-image: url('icons/piaui_icon.png');
+}
+
+#rio_de_janeiro {
+    background-image: url('icons/rio_de_janeiro_icon.png');
+}
+
+#rio_grande_do_norte {
+    background-image: url('icons/rio_grande_do_norte_icon.png');
+}
+
+#rio_grande_do_sul {
+    background-image: url('icons/rio_grande_do_sul_icon.png');
+}
+
+#rondonia {
+    background-image: url('icons/rondonia_icon.png');
+}
+
+#roraima {
+    background-image: url('icons/roraima_icon.png');
+}
+
+#santa_catarina {
+    background-image: url('icons/santa_catarina_icon.png');
+}
+
+#sao_paulo {
+    background-image: url('icons/sao_paulo_icon.png');
+}
+
+#sergipe {
+    background-image: url('icons/sergipe_icon.png');
+}
+
+#tocantins {
+    background-image: url('icons/tocantins_icon.png');
+}
+
+@media screen and (min-width: 800px){
+    body img{
+        width: 50% !important;
+    }
+}
