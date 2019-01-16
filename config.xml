@@ -7,9 +7,9 @@
     versionCode = "10"
     version     = "1.0.0" >
 
-  <name>Tartanator</name>
+  <name>Estados Brasileiros</name>
   <description>
-      Catálogo de Tartans.
+      Lista com todas as UF's do Brasil
   </description>
   <author href="https://bee4dummies.esy.es/chapter6" email="elton.du@gmail.com">
       Elton S. Costa
